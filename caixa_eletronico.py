@@ -20,13 +20,15 @@ def cond():
     else:
         print('processo finalizado.')
 
+cond()
+
 def op_saque(saldo):
     saque = float(input('valor saque: '))
     if saque > 1000 or saque > saldo:
         print('Saque indisponivel')
 
     else:
-        saldo - saque
+        saldo = saldo - saque
         print('R$:' + str(saldo))
 
     cond()
@@ -38,7 +40,7 @@ def op_deposito(saldo):
         print('Valor maximo de depósito é R$ 5000')
 
     else:
-        deposito + saldo
+        saldo = deposito + saldo
         print('R$:' + str(saldo))
 
     cond()
@@ -53,7 +55,7 @@ def op_emprestimo(saldo):
         print('empréstimo recusado')
 
     else:
-        emprestimo + saldo
+        saldo = emprestimo + saldo
         print('Emprestimo aprovado.')
         print('R$:' + str(saldo))
 
@@ -63,7 +65,7 @@ def _info(saldo):
     print('nome:' + nome, 'idade:' + str(idade), 'saldo: R$ ' + str(saldo))
     cond()
 
-if saldo:
-    cond()
+
+
 
 
