@@ -6,7 +6,8 @@
 
 ~~~
 
-### PARTICIPANTES DO TRABALHO:
+## PARTICIPANTES DO TRABALHO:
+
 ~~~
 
 # Hiago ;
