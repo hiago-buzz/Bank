@@ -4,13 +4,8 @@
 
 - Python.
 
-~~~
+---
 
-## PARTICIPANTES DO TRABALHO:
+## Descrição:
 
-~~~
-
-# Hiago ;
-# Camilly.
-
-- nossa dificuldade foi com acessar a variavel de saldo e manter o valor modificado em outras operações
+- um sistema backend para de caixa eletronico para executar as funções de saque, deposito, emprestimo e visualização de dados  de usuario
